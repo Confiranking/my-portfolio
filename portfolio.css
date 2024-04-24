@@ -9,6 +9,11 @@ body {
     background-color: black;
 }
 
+ .main{
+    margin: 0 auto;
+    
+ }
+
 .header {
 
     font-size: 25px;
@@ -282,9 +287,71 @@ span {
     }
 }
 
+    
+
+
 .logo span{
     color: rgb(189, 25, 25);
-}
-@media  {
     
 }
+
+
+@media only screen and (max-width:768px) {
+    
+    .navbar {
+        width:100%;
+        display: flex;
+        padding-inline: 0px;
+    }
+  .navbar a{
+    font-size: 10px;
+margin-left: 8%;
+padding-left: 5px;
+padding-inline: 0;
+  }
+
+.logo{
+font-size: 13px;
+width: 20%;
+
+}
+
+.header{
+padding: 0px 0px;
+
+}
+
+.image{
+    margin-top: 5%;
+    margin-left: 4%;
+    width:100px ;
+    height: 100px;
+    position: relative;
+    
+}
+
+.write{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 0%;
+padding: 20px;
+}
+
+
+.main{
+    bottom: 0%;
+
+}
+
+.intro h1{
+    font-size: 25px;
+}
+
+.body{
+    overflow: scroll;
+}
+
+
+}
+
+
