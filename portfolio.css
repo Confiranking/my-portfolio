@@ -86,7 +86,7 @@ body {
     animation-delay: .3s;
 }
 
-span {
+span  {
     color: rgb(211, 90, 53);
 }
 
@@ -168,7 +168,6 @@ span {
 .image {
     width: 410px;
     height: 410px;
-
     margin-left: 67%;
     margin-top: 7%;
     opacity: 0;
@@ -326,9 +325,8 @@ span {
     .image {
         margin-top: 5%;
         margin-left: 4%;
-        width: 100px;
-        height: 100px;
-        position: relative;
+
+        
 
     }
 
@@ -337,6 +335,7 @@ span {
         margin-top: 7%;
         margin-left: 0%;
         padding: 20px;
+    
     }
 
 
@@ -352,6 +351,10 @@ span {
     .body {
         overflow: scroll;
     }
-
-
+    
+    
 }
+
+    
+
+
